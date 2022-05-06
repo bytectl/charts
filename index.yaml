@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  kratos:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-06T06:13:40.707933943Z"
+    description: A Helm chart for Kubernetes
+    digest: d7f2cf941e80fedbdf3cf793693ba3edcbe775fc22c99b8d3c0b46c360563e00
+    name: kratos
+    type: application
+    urls:
+    - https://github.com/bytectl/helm-charts/releases/download/kratos-0.1.0/kratos-0.1.0.tgz
+    version: 0.1.0
   nacos:
   - apiVersion: v1
     appVersion: "1.0"
@@ -25,4 +36,4 @@ entries:
     urls:
     - https://github.com/bytectl/helm-charts/releases/download/nacos-0.1.5/nacos-0.1.5.tgz
     version: 0.1.5
-generated: "2022-01-06T05:35:43.896028279Z"
+generated: "2022-05-06T06:13:40.707944243Z"
